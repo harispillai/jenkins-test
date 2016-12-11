@@ -1,0 +1,19 @@
+{
+  "name": "jenkins-test",
+  "version": "1.0.0",
+  "description": "Test Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harispillai/jenkins-test.git"
+  },
+  "author": "Hari S Pillai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harispillai/jenkins-test/issues"
+  },
+  "homepage": "https://github.com/harispillai/jenkins-test#readme"
+}
