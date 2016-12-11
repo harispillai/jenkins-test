@@ -1,6 +1,6 @@
 {
   "name": "jenkins-test",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "main": "server/server.js",
   "scripts": {
     "lint": "eslint .",

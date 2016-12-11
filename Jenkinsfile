@@ -13,7 +13,7 @@ sh 'npm version ${VERSION}'
 
 sh 'git push --tags'
 
-sh 'git push'
+sh 'git push origin/master'
 
 
 }
