@@ -11,7 +11,9 @@ sh 'cat package.json'
 
 sh 'npm version ${VERSION}'
 
-sh 'git push && git push --tags'
+sh 'git push --tags'
+
+sh 'git push'
 
 
 }
