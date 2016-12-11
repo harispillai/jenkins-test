@@ -2,11 +2,14 @@ node {
 
 echo "Jenkins Test ${VERSION}"
 
-sh "npm version ${VERSION}"
 
-sh "git push origin master --tags"
+pwd()
 
-sh "npm publish"
+
+sh 'npm version ${VERSION}'
+
+sh 'git push origin master --tags'
+
 
 
 }
