@@ -3,7 +3,7 @@ node {
 echo "Jenkins Test ${VERSION}"
 
 
-pwd()
+echo pwd()
 
 
 sh 'npm version ${VERSION}'
