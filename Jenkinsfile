@@ -9,7 +9,7 @@ sh 'npm version ${VERSION}'
 
 sh 'git push origin master --tags'
 
-sh 'npm publish"
+sh 'npm publish'
 
 
 }
