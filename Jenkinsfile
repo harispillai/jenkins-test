@@ -2,14 +2,14 @@ node {
 
 echo "Jenkins Test ${VERSION}"
 
+
 checkout scm
 
-dir('jenkins-test') {
-sh 'ls'
+sh 'npm version ${VERSION}'
 
-}
+sh 'git push origin master --tags'
 
-
+sh 'npm publish"
 
 
 }
