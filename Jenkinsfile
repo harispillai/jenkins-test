@@ -11,11 +11,7 @@ sh 'cat package.json'
 
 sh 'npm version ${VERSION}'
 
-sh 'git add -A'
-
-sh 'git commit -m "version bumped"'
-
-sh 'git push --tags'
+sh 'git push && git push --tags'
 
 
 }
