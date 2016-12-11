@@ -2,6 +2,8 @@ node {
 
 echo "Jenkins Test ${VERSION}"
 
+deleteDir()
+
 
 checkout scm
 
