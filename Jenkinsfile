@@ -7,6 +7,8 @@ deleteDir()
 
 checkout scm
 
+sh 'cat package.json'
+
 sh 'npm version ${VERSION}'
 
 sh 'git push --tags'
