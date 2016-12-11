@@ -17,7 +17,5 @@ sh 'git commit -m "version bumped"'
 
 sh 'git push --tags'
 
-sh 'npm publish'
-
 
 }
